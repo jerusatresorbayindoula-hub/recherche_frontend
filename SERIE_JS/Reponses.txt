@@ -1,0 +1,15 @@
+1. Quelle est la différence entre une fonction qui utilise return et une fonction qui utilise uniquement console.log() ?
+Réponse : return renvoie une valeur que l'on peut réutiliser dans une variable ou un calcul. console.log() affiche simplement une valeur dans la console, mais ne la renvoie pas.
+
+2. Quelle est la différence entre le destructuring d’un objet et celui d’un tableau ?
+Réponse : Le destructuring d'un objet récupère les valeurs à partir des noms des propriétés, tandis que celui d'un tableau récupère les valeurs selon leur position.
+
+3. Quelle différence faites-vous entre spread et rest ? Donnez un exemple de chaque.
+Réponse : Le spread (...) permet de décomposer les éléments d'un tableau ou les propriétés d'un objet. Le rest (...) permet de regrouper plusieurs éléments ou arguments dans un tableau.
+
+4. Pourquoi est-il souvent utile de créer une copie avec spread avant de modifier un tableau ou un objet ?
+Réponse : Cela permet de modifier la copie sans changer le tableau ou l'objet original. On évite ainsi les modifications involontaires des données initiales.
+
+5. Que se passe-t-il si deux objets fusionnés avec spread possèdent la même propriété ?
+Réponse : Si deux objets possèdent la même propriété, la valeur du dernier objet écrit est conservée.
+
